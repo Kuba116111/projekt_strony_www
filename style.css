@@ -3,9 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("grafika/smart-g0ca6f6f8f_1920.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
+
     scroll-behavior: smooth;
 }
 
@@ -14,20 +12,13 @@ nav {
     width: 98%;
     padding: 1%;
     font-size: larger;
-
-
     line-height: 0%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     justify-content: space-between;
-    align-items: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav img {
-
 }
 
 nav ul {
@@ -46,22 +37,66 @@ nav ul li a {
     text-decoration: none;
     display: block;
     text-align: center;
+    color: rgb(22, 23, 114);  
 }
 
-#o-nas, #oferta, #kontakt, #prezentacja {
+nav ul li a:hover {
+    background-color: rgb(122, 255, 177);
+}
+
+#o-firmie, #oferta, #kontakt, #prezentacja {
     width: 100%;
-    height: 1000px;
-    display: flex;
+    height: 50%;
     text-align: center;
-    color: wbite;
+    color: white;
+
 }
 
-#o-nas {
-    margin-top: 4%;
+#o-firmie {
+    padding-top: 6%;
+    justify-content: center;
+
 }
+
+.opis {
+    width: 20%;
+    padding: 2% 1%;
+    margin: 1%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgba(255, 248, 220, 0.356);
+}
+
 
 #oferta {
-    
+    background-color: rgba(104, 99, 80, 0.356);
+    justify-content: center;
+    align-items: center;
+}
+
+.div-oferta {
+    width: 20%;
+    padding: 2% 1%;
+    margin: 1%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.internet {
+    background-image: url('grafika/fiber-g292046838_1920.jpg');
+    background-size: 100%;
+}
+
+.telewizja {
+    background-image: url('grafika/tv-g99e971fad_1920.jpg');
+    background-size: 100%;
+}
+
+.telefon {
+    background-image: url('grafika/phone-g972152c76_640.jpg');
+    background-size: 100%;
 }
 
 #kontakt {
@@ -73,6 +108,12 @@ nav ul li a {
 }
 
 @media screen and (max-width: 669px) {
+    html, body {
+        background-image: url("grafika/globe-gaa5ea73fa_1920.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    
     nav {
         flex-direction: column;
         position: static;
@@ -92,13 +133,19 @@ nav ul li a {
         padding: 5%;
     }
 
-    #o-nas {
+    #o-firmie {
         margin-top: 8%;
     }
 
 }
 
 @media screen and (min-width: 670px) {
+    html, body {
+        background-image: url("grafika/smart-g0ca6f6f8f_1920.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    
     nav {
         flex-direction: row;
         position: fixed;
@@ -116,6 +163,7 @@ nav ul li a {
 
     nav ul li a {
         width: 200px;
-        padding: 10px;
+        padding: 20px;
     }
+
 }
