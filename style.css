@@ -49,25 +49,25 @@ nav ul li a {
     text-align: center;
 }
 
-.o-nas, .oferta, .kontakt, .prezentacja {
+#o-nas, #oferta, #kontakt, #prezentacja {
     width: 100%;
     height: 1000px;
     display: flex;
 }
 
-.o-nas {
+#o-nas {
     margin-top: 4%;
 }
 
-.oferta {
+#oferta {
     
 }
 
-.kontakt {
+#kontakt {
     
 }
 
-.prezentacja {
+#prezentacja {
     
 }
 
@@ -90,7 +90,7 @@ nav ul li a {
         padding: 5%;
     }
 
-    .o-nas {
+    #o-nas {
         margin-top: 8%;
     }
 
