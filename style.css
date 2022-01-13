@@ -72,6 +72,7 @@ nav ul li a {
 @media screen and (max-width: 669px) {
     nav {
         flex-direction: column;
+        position: static;
     }
 
     nav img {
