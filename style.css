@@ -51,6 +51,8 @@ nav ul li a {
 #o-nas, #oferta, #kontakt, #prezentacja {
     width: 100%;
     height: 1000px;
+    display: flex;
+    text-align: center;
 }
 
 #o-nas {
