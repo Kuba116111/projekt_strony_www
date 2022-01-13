@@ -14,7 +14,7 @@ nav {
     width: 98%;
     padding: 1%;
     font-size: larger;
-    position: fixed;
+
     right: 0;
     top: 0;
     line-height: 0%;
@@ -98,6 +98,7 @@ nav ul li a {
 @media screen and (min-width: 670px) {
     nav {
         flex-direction: row;
+        position: fixed;
     }
 
     nav img {
