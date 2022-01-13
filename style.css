@@ -89,6 +89,11 @@ nav ul li a {
         width: 90%;
         padding: 5%;
     }
+
+    .o-nas {
+        margin-top: 8%;
+    }
+
 }
 
 @media screen and (min-width: 670px) {
