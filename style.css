@@ -15,8 +15,7 @@ nav {
     padding: 1%;
     font-size: larger;
 
-    right: 0;
-    top: 0;
+
     line-height: 0%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -99,6 +98,8 @@ nav ul li a {
     nav {
         flex-direction: row;
         position: fixed;
+        right: 0;
+        top: 0;
     }
 
     nav img {
