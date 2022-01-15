@@ -1,0 +1,74 @@
+@media screen and (max-width: 669px) {
+    html, body {
+
+    }
+    
+    nav {
+        flex-direction: column;
+        position: static;
+    }
+
+    nav img {
+        width: 60%;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        width: 90%;
+        padding: 5%;
+    }
+
+    #o-firmie, #oferta, #kontakt, #prezentacja {
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    #o-firmie {
+        padding-bottom: 2%;
+    }
+
+    .opis {
+        width: 80%;
+        padding: 2%;
+        margin: auto;
+        margin-bottom: 2%;
+        border: 2px solid black;
+        border-radius: 10%;
+        background-color: rgba(255, 248, 220, 0.356);
+    }
+    
+    #oferta {
+        display: block;
+        padding: 3% 0;
+    }
+
+    .div-oferta {
+        width: 80%;
+        padding: 2%;
+        margin: auto;
+        margin-bottom: 2%;
+        border: 2px solid black;
+        border-radius: 10%; 
+    }
+
+    #kontakt {
+        height: 60%;
+    }
+
+    #kontakt table {
+        width: 100%;
+        padding: 2%;
+        margin: auto;
+    }
+
+    #kontakt iframe {
+        width: 70%;
+        height: 70%;
+    }
+}
+
