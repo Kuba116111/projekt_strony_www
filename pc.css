@@ -47,11 +47,11 @@
 
     #kontakt {
         align-items: center;
-        padding: 3%;
+        
     }
 
     #kontakt table {
-        width: 50%;
+        width: 35%;
         height: 70%;
         padding: 1%;
         margin: auto;
@@ -64,7 +64,7 @@
 
     #kontakt iframe {
         margin: auto;
-        width: 40%;
+        width: 35%;
         height: 70%;
         display: inline-block;
     }
