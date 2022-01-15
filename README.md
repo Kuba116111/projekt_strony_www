@@ -1,1 +1,1 @@
-# projekt_strony_www
+# Jebać jajogłowego
