@@ -8,13 +8,12 @@ html, body {
 }
 
 nav {
-    background-color: rgba(211, 211, 211, 0.9);
+    /* background-color: rgba(211, 211, 211, 0.9); */
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgba(168, 168, 168, 0));
     width: 98%;
     padding: 1%;
     font-size: larger;
     /* line-height: 0%; */
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     justify-content: space-between;
     display: flex;
     justify-content: space-between;
@@ -37,44 +36,81 @@ nav ul li a {
     text-decoration: none;
     display: block;
     text-align: center;
-    color: rgb(22, 23, 114);  
+    color: aliceblue;
 }
 
 nav ul li a:hover {
     background-color: rgb(122, 255, 177);
 }
 
-#o-firmie {
-    padding-top: 6%;
-}
+
 
 #oferta {
     background-color: rgba(104, 99, 80, 0.356);
-    justify-content: center;
-    align-items: center;
 }
 
-.internet {
+.internet-title {
     background-image: url('grafika/fiber-g292046838_1920.jpg');
     background-size: 100%;
+    border-radius: 10%;
+    padding: 1%;
 }
 
-.telewizja {
+.internet-lista-produkt, .telewizja-lista-produkt, .telefon-lista-produkt {
+    background-color: rgb(228, 228, 228);
+    width: 30%;
+    height: 50%;
+    margin: 1% auto;
+    padding: 1%;
+    display: inline-block;
+    color: black;
+    border: 2px solid brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.internet-lista-produkt .title, .telewizja-lista-produkt .title, .telefon-lista-produkt .title  {
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.internet-lista-produkt a, .telewizja-lista-produkt a, .telefon-lista-produkt a{
+    width: 70%;
+    padding: 5%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: darkgreen;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.telewizja-title {
     background-image: url('grafika/tv-g99e971fad_1920.jpg');
     background-size: 100%;
+    border-radius: 10%;
+    padding: 1%;
 }
 
-.telefon {
+.telefon-title {
     background-image: url('grafika/phone-g972152c76_640.jpg');
     background-size: 100%;
+    border-radius: 10%;
+    padding: 1%;
+    margin: 0;
 }
 
 #kontakt {
-    width: 90%;
+    width: 80%;
+    height: 50%;
     margin: auto;
 }
 
-#kontakt table hr {
+/* #kontakt table hr {
+    border: 1px solid crimson;
+} */
+
+hr {
     border: 1px solid crimson;
 }
 
