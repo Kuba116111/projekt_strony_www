@@ -144,10 +144,10 @@ hr {
     #o-firmie {
         padding-bottom: 2%;
         padding-top: 10%;
-        background-image: url('grafika/ost_budynek-1536x927.jpg');
+        /* background-image: url('grafika/ost_budynek-1536x927.jpg');
         background-size: 250%;
         background-position-x: center;
-        background-position-y: center;
+        background-position-y: center; */
     }
 
     .opis {
