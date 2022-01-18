@@ -3,7 +3,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #a8a8a8;
+    /* background-color: #a8a8a8; */
+    background-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
 }
 
@@ -45,7 +46,8 @@ nav ul li a:hover {
 }
 
 #oferta {
-    background-color: rgba(104, 99, 80, 0.356);
+    /* background-color: rgba(104, 99, 80, 0.356); */
+    background-color: rgb(255, 255, 255);
 }
 
 .internet-title {
@@ -138,7 +140,7 @@ hr {
     #o-firmie, #oferta, #kontakt, #prezentacja {
         width: 100%;
         text-align: center;
-        color: white;
+        color: black;
     }
 
     #o-firmie {
@@ -243,7 +245,7 @@ hr {
         width: 100%;
         height: 86%;
         text-align: center;
-        color: white;
+        color: black;
         padding-top: 5%;
     }
 
@@ -341,7 +343,7 @@ hr {
         height: 70%;
         padding-top: 5%;
         text-align: center;
-        color: white;
+        color: black;
         align-items: center;
     }
     
@@ -369,7 +371,7 @@ hr {
         width: 100%;
         height: 86%;
         text-align: center;
-        color: white;
+        color: black;
         padding-top: 5%;
     }
 
